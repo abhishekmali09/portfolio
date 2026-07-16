@@ -27,7 +27,7 @@ export const profile = {
   email: 'abhishekmali7710@gmail.com',
   phone: '+91 70113 22428',
   github: 'https://github.com/abhishekmali09',
-  linkedin: 'https://www.linkedin.com/in/abhishek-mali-0911/',
+  linkedin: 'https://linkedin.com/in/abhishekmali09',
   bio: 'B.Tech Computer Science student graduating in 2026, focused on building scalable backend systems with Java, Spring Boot, and a microservices architecture. During my internship at Dotdevz Consulting I shipped REST APIs and authentication flows in production, and I have since built four full-stack projects — including a Spring Boot microservices platform with RabbitMQ, Keycloak, and Gemini AI integration. I care about clean architecture, reliable APIs, and writing code that other engineers enjoy maintaining.',
   objective: 'To join a high-performing engineering team where I can build reliable, production-grade backend systems, grow as a Spring Boot and microservices engineer, and contribute to products used at scale.',
 };

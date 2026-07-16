@@ -20,7 +20,7 @@ export default function Contact() {
   const contactItems = [
     { icon: Mail, label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
     { icon: Phone, label: 'Phone', value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}` },
-    { icon: Linkedin, label: 'LinkedIn', value: 'abhishek-mali-0911', href: profile.linkedin },
+    { icon: Linkedin, label: 'LinkedIn', value: 'abhishek-mali-09', href: profile.linkedin },
     { icon: Github, label: 'GitHub', value: 'abhishekmali09', href: profile.github },
   ];
 
