@@ -28,8 +28,8 @@ export const profile = {
   phone: '+91 70113 22428',
   github: 'https://github.com/abhishekmali09',
   linkedin: 'https://linkedin.com/in/abhishekmali09',
-  bio: 'B.Tech Computer Science student graduating in 2026, focused on building scalable backend systems with Java, Spring Boot, and a microservices architecture. During my internship at Dotdevz Consulting I shipped REST APIs and authentication flows in production, and I have since built four full-stack projects — including a Spring Boot microservices platform with RabbitMQ, Keycloak, and Gemini AI integration. I care about clean architecture, reliable APIs, and writing code that other engineers enjoy maintaining.',
-  objective: 'To join a high-performing engineering team where I can build reliable, production-grade backend systems, grow as a Spring Boot and microservices engineer, and contribute to products used at scale.',
+  bio: 'B.Tech Computer Science student graduating in 2026, focused on building scalable backend systems with Java and Spring Boot. Completed a 6-month Java Developer Internship at Mogli Labs where I worked on backend development and system integration. I have built four full-stack projects, including a Spring Boot microservices platform with RabbitMQ, Keycloak, and Gemini AI integration. I care about clean architecture, reliable APIs, and writing maintainable code.',
+  objective: 'To join a high-performing engineering team where I can build reliable, production-grade backend systems, grow as a Java and microservices developer, and contribute to impactful products.',
 };
 
 export const floatingTech = [
@@ -99,17 +99,17 @@ export const skillGroups = [
 
 export const experience = [
   {
-    role: 'Backend Developer Intern',
-    company: 'Dotdevz Consulting Pvt. Ltd.',
-    period: 'Internship',
+    role: 'Java Developer Intern',
+    company: 'Mogli Labs (India) Pvt. Ltd.',
+    period: 'January 2026 – June 2026',
     points: [
-      'Built and maintained REST APIs with Node.js and Express, serving real application traffic.',
-      'Designed data models and queries across MongoDB and MySQL for production features.',
-      'Implemented JWT-based authentication and authorization flows for secure user sessions.',
-      'Debugged and validated APIs end-to-end using Postman, cutting integration defects.',
-      'Collaborated in an Agile team, shipping features iteratively with code reviews.',
+      'Developed and maintained robust Java backend applications using Spring Boot.',
+      'Built RESTful APIs with a focus on clean architecture, business logic, and system integration.',
+      'Contributed to database design and optimization using SQL and ORM tools.',
+      'Collaborated with the engineering team on debugging, testing, and deploying features in an agile environment.',
+      'Delivered reliable backend solutions for e-commerce platforms.',
     ],
-    stack: ['Node.js', 'Express', 'MongoDB', 'MySQL', 'JWT', 'Postman', 'Agile'],
+    stack: ['Java', 'Spring Boot', 'REST APIs', 'SQL', 'JPA/Hibernate', 'Agile'],
   },
 ];
 
