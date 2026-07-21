@@ -20,7 +20,6 @@ export const profile = {
     'AI Enthusiast',
   ],
   heroRoles: [
-    'Java',
     'Spring Boot',
     'Microservices',
     'React',
