@@ -57,7 +57,20 @@ export default function Contact() {
           setTimeout(() => setSent(false), 3000);
         },
         (err) => {
-          console.log(err);
+          console.error('EmailJS Error:', err);
+
+          if (err && typeof err === 'object') {
+            const emailJsError = err as { status?: number; text?: string };
+
+            if (emailJsError.status !== undefined) {
+              console.log('Status:', emailJsError.status);
+            }
+
+            if (emailJsError.text !== undefined) {
+              console.log('Text:', emailJsError.text);
+            }
+          }
+
           setError(true);
           setSent(false);
         }

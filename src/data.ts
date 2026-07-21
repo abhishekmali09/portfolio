@@ -20,9 +20,10 @@ export const profile = {
     'AI Enthusiast',
   ],
   heroRoles: [
-    'Java Backend Developer',
+    'Java',
     'Spring Boot',
     'Microservices',
+    'React',
   ],
   email: 'abhishekmali7710@gmail.com',
   phone: '+91 70113 22428',
