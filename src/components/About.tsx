@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Code2, Server, Sparkles } from 'lucide-react';
+import { Target, Code2, Server, Sparkles, Bot, Workflow } from 'lucide-react';
 import { profile } from '../data';
 import SectionHeading from './SectionHeading';
 
@@ -8,6 +8,8 @@ const highlights = [
   { icon: Server, label: 'Microservices', value: 'Architecture' },
   { icon: Sparkles, label: 'AI Integration', value: 'Gemini + OpenAI' },
   { icon: Target, label: 'Clean Architecture', value: 'Production-Grade' },
+  { icon: Bot, label: 'AI Agents', value: 'FastMCP • MCP' },
+  { icon: Workflow, label: 'Workflow Automation', value: 'Python • Pydantic • SMTP' },
 ];
 
 export default function About() {
@@ -17,7 +19,7 @@ export default function About() {
         <SectionHeading
           variant="light"
           eyebrow="About Me"
-          title={<>Engineer behind <span className="text-gradient-purple">scalable backends</span></>}
+          title={<>Building Intelligent <span className="text-gradient-purple">AI & Backend Systems</span></>}
         />
 
         <div className="grid lg:grid-cols-5 gap-8 items-start ">

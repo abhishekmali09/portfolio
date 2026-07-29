@@ -3,7 +3,7 @@ import {
   SiMongodb, SiMysql, SiKeycloak, SiGit, SiGithub,
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
-import { Code2, ShieldCheck, MessageSquare, Wrench, BrainCircuit } from 'lucide-react';
+import { Code2, ShieldCheck, MessageSquare, Wrench, BrainCircuit, Sparkles, Cloud } from 'lucide-react';
 import hospitalImage from './assets/images/hospital.png';
 import heroBackgroundImage from './assets/images/2.jpg';
 import sport from './assets/images/sport.png';
@@ -20,16 +20,17 @@ export const profile = {
     'AI Enthusiast',
   ],
   heroRoles: [
+    'Generative AI',
+    'Python',
     'Spring Boot',
-    'Microservices',
-    'React',
+    'AI Agents',
   ],
   email: 'abhishekmali7710@gmail.com',
   phone: '+91 70113 22428',
   github: 'https://github.com/abhishekmali09',
   linkedin: 'https://linkedin.com/in/abhishekmali09',
-  bio: 'B.Tech Computer Science student graduating in 2026, focused on building scalable backend systems with Java and Spring Boot. Completed a 6-month Java Developer Internship at Mogli Labs where I worked on backend development and system integration. I have built four full-stack projects, including a Spring Boot microservices platform with RabbitMQ, Keycloak, and Gemini AI integration. I care about clean architecture, reliable APIs, and writing maintainable code.',
-  objective: 'To join a high-performing engineering team where I can build reliable, production-grade backend systems, grow as a Java and microservices developer, and contribute to impactful products.',
+  bio: 'B.Tech Computer Science student graduating in 2026, focused on building intelligent AI and backend systems with Python, Spring Boot, and Generative AI technologies. Completed a 6-month Java Developer Internship at Mogli Labs where I worked on backend development and system integration. I have built full-stack projects spanning AI agents, FastMCP integrations, workflow automation, and Spring Boot microservices with RabbitMQ, Keycloak, and Gemini AI. I care about clean architecture, reliable APIs, and writing maintainable code.',
+  objective: 'To join a high-performing engineering team where I can build production-grade AI and backend systems, grow as a Generative AI and Java developer, and contribute to impactful products.',
 };
 
 export const floatingTech = [
@@ -95,6 +96,27 @@ export const skillGroups = [
     accent: 'from-indigo-400 to-blue-500',
     skills: ['OOP', 'Data Structures', 'Algorithms', 'Clean Architecture'],
   },
+  {
+    title: 'Generative AI',
+    icon: Sparkles,
+    accent: 'from-fuchsia-400 to-purple-500',
+    skills: [
+      'AI Agents',
+      'FastMCP',
+      'MCP',
+      'Prompt Engineering',
+      'Gemini API',
+      'OpenAI API',
+      'LLM Applications',
+      'Workflow Automation',
+    ],
+  },
+  {
+    title: 'Cloud & DevOps',
+    icon: Cloud,
+    accent: 'from-sky-400 to-blue-500',
+    skills: ['Docker', 'Docker Compose', 'Linux'],
+  },
 ];
 
 export const experience = [
@@ -114,6 +136,25 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    name: 'HR Assistant Agent',
+    category: 'AI Agent Platform',
+    tagline: 'Enterprise AI-Powered HR Assistant with MCP',
+    shortDescription:
+      'Enterprise AI HR Assistant built with Python and MCP that automates onboarding, leave management, meeting scheduling, ticket handling, and email workflows using intelligent AI Agents.',
+    description: 'An enterprise AI-powered HR Assistant built with Python and the Model Context Protocol (MCP) to automate HR operations through natural language. The application manages employee onboarding, leave requests, meeting scheduling, ticket management, and automated email notifications using modular AI Agent workflows.',
+    image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80',
+    liveDemo: 'https://github.com/abhishekmali09',
+    features: [
+      'Natural language HR operations powered by modular AI Agent workflows',
+      'Employee onboarding, leave requests, and meeting scheduling automation',
+      'Ticket management with automated email notifications via MCP integrations',
+      'Python-based architecture using the Model Context Protocol (MCP)',
+    ],
+    stack: ['Python', 'MCP', 'FastMCP', 'AI Agents', 'Workflow Automation', 'SMTP'],
+    accent: 'from-purple-500 via-violet-400 to-indigo-400',
+    github: 'https://github.com/abhishekmali09/HR-Assistant-Agent',
+  },
   {
     name: 'FitInsight',
     category: 'Microservices Platform',
@@ -190,6 +231,7 @@ export const projects = [
     accent: 'from-violet-500 via-indigo-400 to-blue-400',
     github: 'https://github.com/abhishekmali09',
   },
+ 
 ];
 
 export const education = [
